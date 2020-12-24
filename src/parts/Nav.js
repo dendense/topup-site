@@ -13,14 +13,21 @@ const Navigation = props => (
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
         <Link className="nav-link" activeClassName="nav-link active" to="/bio">
-          Bio
+          About
         </Link>
         <Link
           className="nav-link"
           activeClassName="nav-link active"
           to="/project"
         >
-          Project
+          Services
+        </Link>
+        <Link
+          className="nav-link"
+          activeClassName="nav-link active"
+          to="/testimony"
+        >
+          Testimony
         </Link>
       </Nav>
     </Navbar.Collapse>

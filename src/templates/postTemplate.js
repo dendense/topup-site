@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { Disqus, CommentCount } from "gatsby-plugin-disqus"
+import ReactWhatsapp from "react-whatsapp"
 
 import "../styles/index.scss"
 import { slugify } from "../utils/utilityFunction"
@@ -10,7 +11,7 @@ import Sidebar from "../parts/Sidebar"
 
 export default function postTemplate({ data }) {
   const post = data.markdownRemark
-  const { title, author, date, tags, path, image } = post.frontmatter
+  const { title, author, date, tags, path, image, message } = post.frontmatter
 
   //Set your public url after published into production build
   const disqusConfig = {
@@ -49,6 +50,13 @@ export default function postTemplate({ data }) {
                 style={{ margin: "0.5rem" }}
                 dangerouslySetInnerHTML={{ __html: post.html }}
               />
+              <ReactWhatsapp
+                number="6289698526236"
+                message={message}
+                className="btn btn-primary"
+              >
+                Order Sekarang
+              </ReactWhatsapp>
               <div style={{ marginTop: "2rem" }}>
                 Tags :{" "}
                 {tags.map(tag => (
@@ -82,6 +90,7 @@ export const postQuery = graphql`
         path
         date(formatString: "DD MMMM, YYYY")
         title
+        message
         author
         tags
         image

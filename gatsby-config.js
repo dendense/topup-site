@@ -7,13 +7,13 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Dendense`,
+    title: `FAUZISTORE`,
     author: {
-      name: `Deny Farras Febriyanto`,
+      name: `FAUZISTORE`,
       summary: `Creating & Develop Something.`,
     },
-    description: `Tech & Multimedia, Expand Your Skills Experience!`,
-    siteUrl: `https://himitsupro.com`,
+    description: `Pay & TopUp Everything With Us!`,
+    siteUrl: `https://fauzistore.netlify.app/`,
     social: {
       instagram: `deny_desu`,
     },

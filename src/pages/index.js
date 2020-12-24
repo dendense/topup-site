@@ -11,11 +11,11 @@ export default function Home({ data }) {
     <Layout>
       <SEO title="Welcome to my blog" />
       <Jumbotron
-        headline="DensLAB"
-        punchline="Learn Everything &amp; Expand Your Skills."
+        headline="FAUZISTORE.ID"
+        punchline="Pay &amp; TopUp Everything With Us!"
       />
       <div style={{ marginLeft: "1rem", marginRight: "1rem" }}>
-        <h4>Latest Posts</h4>
+        <h4>Layanan TopUp</h4>
         <PostsCard data={data.allMarkdownRemark.nodes} col={4} />
       </div>
     </Layout>
