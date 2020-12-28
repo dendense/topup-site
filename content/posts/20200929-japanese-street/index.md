@@ -1,15 +1,16 @@
 ---
 type: blog
-path: /blog/japanese-street
-title: View of Japanese Street
+path: /blog/mobile-legend
+title: Mobile Legend
+message: Topup Mobile Legend
 author: SakuMayo
 date: 2020-09-29T06:47:35.441Z
-description: Amazing Neon Cyberpunk view on Japanese steer
+description: Topup Mobile Legend with Lower Price, Best Deal!
 tags:
-  - Photography
-image: https://i.ibb.co/pz6X3mP/japan-2014618-1280.jpg
+  - MobileLegend
+  - Mobile
+image: https://i.ibb.co/ZNLykWq/mobellegen.png
 ---
-
-# This is Title
+# Pricelist Mobile Legend
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
