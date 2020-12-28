@@ -2,12 +2,14 @@
 type: blog
 path: /blog/monthly-blessing-genshin-impact
 title: Monthly Blessing Genshin Impact
+message: Top Up Monthly Blessing Genshin Impact
 author: SakuMayo
 date: 2020-09-28T06:55:23.872Z
 description: Top Up Monthly Blessing Genshin Impact Murah!
-message: Top Up Monthly Blessing Genshin Impact
 tags:
-  - Nature
+  - Genshin
+  - PC
+  - Mobile
 image: https://i.ibb.co/Hzs2RxT/image.png
 ---
 
