@@ -52,7 +52,7 @@ export default function postTemplate({ data }) {
               />
               <ReactWhatsapp
                 number="6289698526236"
-                message={message}
+                message={`Min mau ${message} dong...`}
                 className="btn btn-primary"
               >
                 Order Sekarang
