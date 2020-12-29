@@ -2,7 +2,7 @@
 type: blog
 path: /blog/mobile-legend
 title: Mobile Legend
-number: 6289698526236
+nomor: 6289698526236
 message: Topup Mobile Legend
 author: SakuMayo
 date: 2020-09-29T06:47:35.441Z
