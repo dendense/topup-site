@@ -2,10 +2,11 @@
 type: blog
 path: /blog/monthly-blessing-genshin-impact
 title: Monthly Blessing Genshin Impact
-nomor: 6289698526236
 message: Top Up Monthly Blessing Genshin Impact
 author: SakuMayo
 date: 2020-09-28T06:55:23.872Z
+nomor: 6289698526236
+numberwa: 6289698526236
 description: Top Up Monthly Blessing Genshin Impact Murah!
 tags:
   - Genshin
