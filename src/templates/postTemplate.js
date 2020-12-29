@@ -19,7 +19,7 @@ export default function postTemplate({ data }) {
     path,
     image,
     message,
-    number,
+    numberwa,
   } = post.frontmatter
 
   //Set your public url after published into production build
@@ -60,7 +60,7 @@ export default function postTemplate({ data }) {
                 dangerouslySetInnerHTML={{ __html: post.html }}
               />
               <ReactWhatsapp
-                number={number}
+                number={numberwa}
                 message={`Min mau ${message} dong...`}
                 className="btn btn-primary"
               >
@@ -100,7 +100,7 @@ export const postQuery = graphql`
         date(formatString: "DD MMMM, YYYY")
         title
         message
-        number
+        numberwa
         author
         tags
         image
