@@ -11,7 +11,16 @@ import Sidebar from "../parts/Sidebar"
 
 export default function postTemplate({ data }) {
   const post = data.markdownRemark
-  const { title, author, date, tags, path, image, message } = post.frontmatter
+  const {
+    title,
+    author,
+    date,
+    tags,
+    path,
+    image,
+    message,
+    number,
+  } = post.frontmatter
 
   //Set your public url after published into production build
   const disqusConfig = {
@@ -51,7 +60,7 @@ export default function postTemplate({ data }) {
                 dangerouslySetInnerHTML={{ __html: post.html }}
               />
               <ReactWhatsapp
-                number="6289698526236"
+                number={number}
                 message={`Min mau ${message} dong...`}
                 className="btn btn-primary"
               >
@@ -91,6 +100,7 @@ export const postQuery = graphql`
         date(formatString: "DD MMMM, YYYY")
         title
         message
+        number
         author
         tags
         image

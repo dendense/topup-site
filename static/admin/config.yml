@@ -26,6 +26,7 @@ collections:
       - { label: Type, name: type, widget: string, required: true }
       - { label: Path, name: path, widget: string, required: true }
       - { label: Title, name: title, widget: string, required: true }
+      - { label: WA Number, name: number, widget: string, required: true }
       - { label: Message, name: message, widget: string, required: true }
       - { label: Author, name: author, widget: string, required: true }
       - { label: Publish Date, name: date, widget: datetime }

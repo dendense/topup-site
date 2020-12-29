@@ -2,6 +2,8 @@
 type: blog
 path: /blog/himeji-castle
 title: Immersive Himeji Castle in Japan
+number: 6289698526236
+message: Topup Mobile Legend
 author: SakuMayo
 date: 2020-09-30T07:17:26.066Z
 description: Spend your holiday with visiting Himeji Castle
