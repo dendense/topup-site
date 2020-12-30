@@ -44,4 +44,4 @@ image: https://i.ibb.co/Hzs2RxT/image.png
 
 Untuk melakukan order, dapat menghubungi WhatsApp official kami pada halaman About atau cukup menekan tombol "Order Sekarang" dibawah ini :D.
 
-NOTE : AWAS PENIPUAN ATAS NAMA KAMI! Nomor Kontak, Daftar Rekening & Dompet Digital milik kami dapat kalian lihat pada halaman About! Hindari transaksi selain dari daftar tersebut, Terima Kasih!
+NOTE : **AWAS PENIPUAN ATAS NAMA KAMI!** Nomor Kontak, Daftar Rekening & Dompet Digital milik kami dapat kalian lihat pada halaman About! **Hindari transaksi selain dari daftar tersebut**, Terima Kasih!
