@@ -64,7 +64,7 @@ export default function postTemplate({ data }) {
                 message={`Min mau ${message} dong...`}
                 className="btn btn-primary"
               >
-                Order Sekarang
+                Order Via WA Sekarang
               </ReactWhatsapp>
               <div style={{ marginTop: "2rem" }}>
                 Tags :{" "}
