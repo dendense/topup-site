@@ -27,6 +27,6 @@ website: https://github.com/dendense/Boilerplate-NetlifyCMS
 | Pembayaran |                      |
 | ---------- | -------------------- |
 | JENIUS     | \$dendense           |
-| DANA       | +6282118168429       |
+| DANA       | +6289698526236       |
 | BCA        | -                    |
 | Paypal     | deny0048@outlook.com |
