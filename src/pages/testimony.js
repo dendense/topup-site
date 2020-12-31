@@ -23,7 +23,7 @@ function Testimony() {
   )
   return (
     <Layout>
-      <SEO title="Testimony" />
+      <SEO title="Testimony" keyword="Testimony" />
       <Jumbotron headline="Testimony" punchline="Trust is our Motto" />
       <div style={{ marginLeft: "1rem", marginRight: "1rem" }}>
         <h4>Berikut Testimony Penjualan Kami</h4>

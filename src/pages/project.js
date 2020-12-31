@@ -9,9 +9,9 @@ import Jumbotron from "../components/Jumbotron"
 export default function Project({ data }) {
   return (
     <Layout>
-      <SEO title="Services" />
+      <SEO title="Services" keyword="Services" />
       <Jumbotron
-        headline="Another Service"
+        headline="Another Services"
         punchline="Pay &amp; TopUp Everything With Us!"
       />
       <div style={{ marginLeft: "1rem", marginRight: "1rem" }}>

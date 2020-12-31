@@ -20,8 +20,8 @@ export default function bioTemplate({ data }) {
   return (
     <div>
       <Layout>
-        <SEO title="About Me" keyword="About Me" />
-        <div className="row m-2">
+        <SEO title="About Us" keyword="About Us" />
+        <div className="row">
           <div className="col-md-8">
             <div className="post-bar">
               <h1>{title}</h1>
@@ -47,7 +47,7 @@ export default function bioTemplate({ data }) {
                               </td>
                             </tr>
                             <tr>
-                              <th scope="row">Website</th>
+                              <th scope="row">Web Template</th>
                               <td>
                                 <Link to={website} target="_blank">
                                   {websitename}

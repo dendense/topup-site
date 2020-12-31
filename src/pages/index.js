@@ -9,7 +9,7 @@ import Jumbotron from "../components/Jumbotron"
 export default function Home({ data }) {
   return (
     <Layout>
-      <SEO title="Welcome to my blog" />
+      <SEO title="Welcome" keyword="Home" />
       <Jumbotron
         headline="FAUZISTORE.ID"
         punchline="Pay &amp; TopUp Everything With Us!"
