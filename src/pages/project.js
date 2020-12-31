@@ -9,13 +9,13 @@ import Jumbotron from "../components/Jumbotron"
 export default function Project({ data }) {
   return (
     <Layout>
-      <SEO title="My Project" />
+      <SEO title="Services" />
       <Jumbotron
-        headline="My Project"
-        punchline="Learn Everything &amp; Expand Your Skills."
+        headline="Another Service"
+        punchline="Pay &amp; TopUp Everything With Us!"
       />
       <div style={{ marginLeft: "1rem", marginRight: "1rem" }}>
-        <h4>Project List</h4>
+        <h4>Services List</h4>
         <PostsCard data={data.allMarkdownRemark.nodes} col={4} />
       </div>
     </Layout>
@@ -26,7 +26,7 @@ export const IndexQuery = graphql`
   query Project {
     allMarkdownRemark(
       sort: { order: DESC, fields: frontmatter___date }
-      filter: { frontmatter: { type: { eq: "project" } } }
+      filter: { frontmatter: { type: { eq: "services" } } }
     ) {
       nodes {
         frontmatter {

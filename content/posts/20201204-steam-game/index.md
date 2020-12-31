@@ -1,9 +1,9 @@
 ---
-type: project
-path: /project/project-one
-title: Youtube Family
+type: services
+path: /project/steam-games
+title: Steam Games
 nomor: 6289698526236
-message: Topup Mobile Legend
+message: Beli Steam Game Via Gift
 author: SakuMyao
 date: 2020-12-04T14:40:55.870Z
 description: Lorem Ipsum
